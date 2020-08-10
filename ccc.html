@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.items{
+		width: 50px;
+		height: 50px;
+		background-color: red;
+		display: none;
+}
+
+
+</style>
+
+<body>
+	<div class="list">
+		<ul>
+			<li>111</li>
+			<li>222</li>
+			<li>333</li>
+		</ul>
+	</div>
+	<div class="item">
+		<div class="items">
+			111
+		</div>
+		<div class="items">
+			222
+		</div>
+		<div class="items">
+			333
+		</div>
+			
+	</div>
+</body>
+<script>
+	
+	let list = document.querySelector('.list')
+	let li = list.querySelectorAll('ul li')
+	let items = document.querySelectorAll('.items')
+	
+	for (let i = 0; i < li.length; i++) {
+			li[i].addEventListener('mouseover',function(){
+				items[i].style.display = 'block'
+			})
+			li[i].addEventListener('mouseout',function(){
+				items[i].style.display = 'none'
+			})
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+// 	function ins(){
+// 		let a = 1
+// 		function fn(){
+// 			console.log(this)
+  
+// 		}
+// 		fn()
+// 	}
+// ins()
+  
+// console.log('123')
+// var name ='555'
+//     var obj ={
+	
+// 		name:'wosinidie',
+// 	    getname:v =>{
+// 			console.log(this.name);
+// 		},
+// 		getnames:function(){
+// 			console.log(this.name);
+// 		},
+// 		saty: v =>console.log(this)
+// 	}	
+// 	obj.getname()
+// 	obj.getnames()
+// 		obj.saty()
+	
+	
+    // var div = document.querySelector('div')
+    // div.addEventListener('mouseover', function() {
+    //     div.style.display = 'none'
+    // })
+
+    // var a = 3
+    // console.log(a += a -= a * a);
+	
+	// var a = 1
+	// var b = 3
+	// a = a+b 
+	// b =a - b
+	// a = a- b
+	// console.log(a)
+	// console.log(b)
+	// let a = 10;
+	// let a = 100;
+	// console.log(a);
+	// alert('我\n爱\n你')
+	
+	// function clock () {
+	
+	//   // 实例化当前时间
+	//   let time = new Date();
+	//   //年月日周
+	//   let y = time.getFullYear(),
+	//     m = time.getMonth() + 1,
+	//     day = time.getDate(),
+	//     // week = toWeek(time.getDay());
+	//   //小时，分钟，秒
+	//   // let h = time.getHours(),
+	//   //   miu = time.getMinutes(),
+	//   //   s = time.getSeconds(),
+	//   //   ms = time.getMilliseconds();
+	//   // var resultTimne = `今天是 ${y}年${m}月${day}日  ${h}时${miu}分${s}秒${ms}毫秒`;
+	  // return resultTimne;
+	//   var iou = y+m+day
+	//   return iou
+	// }
+	// console.log(clock());
+	
+	// function clock(){
+	// 	let time = new Date()
+	// 	let a = time.getFullYear()
+		// let b = time.getMonth()
+	// 	let c = time.getDate()
+	// 	let h = time.getHours()
+	// 	let m = time.getMinutes()
+	// 	let s = time.getSeconds()
+	// 	// return  a +'年'+ b + '月' + c + '号' + h+":" + m+'：'+s
+	// 	return '距离结束还有' + (21-h) + ':' + (60 - m) + ':' + (60-s)
+		
+	// }
+	// var tis = setInterval(function(){
+	// 	clock()
+	// },1000)
+	// console.log(tis);
+	// var tis = setInterval(function(){
+	// 	var time = new Date(2020,6,15,21,59,59)
+	// var time2 = new Date()
+	// 	let h = time.getHours() - time2.getHours()
+	// 	let m = time.getMinutes()- time2.getMinutes()
+	// 	let s = time.getSeconds()- time2.getSeconds()
+	// 	var ins =  h + ':' + m +'：'+s
+	// console.log(ins);
+	// },1000)
+	
+	// alert(Number('050000'))
+	// var a = b = c = d = [1,2,3,4,5]
+	// d= [8,8,8,8,8,8,8]
+	// console.log(a);
+	// console.log(b);
+	// console.log(c);
+	// console.log(d);
+	// var n = undefined
+	// console.log( typeof null);
+	// var i = 1
+	// i = ++i
+	// console.log(i);
+// let string='aababbaabab';
+//   let n=(string.split('a'));
+//  console.log(n);
+
+	
+</script>
+
+</html>

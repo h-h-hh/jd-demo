@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.red {
+	color: red;
+}
+.gary{
+	color: #b2b3b2;
+}
+li {
+	list-style: none;
+}
+
+
+/*清除浮动类的标准写法*/
+
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+input:focus {
+	outline: none;
+}
+
+.border {
+	border: 1px dashed red;
+	color: red;
+}
